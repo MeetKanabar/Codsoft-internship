@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 100px; /* Add padding to prevent content from being hidden by the footer */
+}
+
+.intro, .biography, .achievements, .leadership-style, .contributions, .quotes {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.intro p, .biography p, .leadership-style p, .contributions p, .quotes p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0078d4;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #0078d4;
+    background: #f9f9f9;
+}
+
+#new-quote-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#new-quote-btn:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .intro img {
+        max-width: 150px;
+    }
+
+    section {
+        padding: 0 10px;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
